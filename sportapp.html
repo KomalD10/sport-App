@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Burned Calculator</title>
+    <link rel="stylesheet" href="sportapp.css">
+</head>
+
+<body>
+
+    <h1> Sport Calorie Burned Calculator </h1>
+    <p>With our sport calorie burned calculator,you can find out the calories burned in 60 minuites of playing a sport!
+    </p>
+    <div class="container">
+        <table>
+            <form id="form">
+                <tr>
+                    <th> Sport Name:</th>
+                    <td><input type="text" id="activity" placeholder="Type here"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Calculate" id="submit"></td>
+                </tr>
+
+            </form>
+        </table>
+    </div>
+    <br>
+    <div class="secondContainer">
+        <b>Name :</b><span id="sportName"></span><br>
+        <b>Duration_Minutes :</b><span id="duration_minutes"></span><br>
+        <b>Total_calories_burned :</b><span id="total_calories"></span>
+    </div>
+
+    <footer>
+        <a href="https://blog.playo.co/top-10-fat-burning-sports/" target="_blank">Top 10 sports burn most calories!</a>
+    </footer>
+    <script src="sportapp.js"></script>
+
+</body>
+
+
+</html>
